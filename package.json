@@ -4,7 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-      "start": "parcel src/sample.html",
-      "build": "parcel build src/index.js"
-    }
+    "start": "parcel src/sample.html",
+    "build": "babel src --out-dir dist",
+    "build:parcel": "parcel build src/index.js"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  }
 }

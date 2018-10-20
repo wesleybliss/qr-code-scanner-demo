@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["@babel/env", {
+      "forceAllTransforms": true,
+      "targets": {
+        "browsers": ["last 2 versions", "> 5% in BE"],
+      },
+      "modules": false
+    }]
+  ],
+  "plugins": [
+    
+  ]
+}
